@@ -1,23 +1,17 @@
-# 8th Wall Web
+# Augmented Pokemon AR Demo
 
-8th Wall Web: Web AR for mobile devices!
-
-Built entirely using standards-compliant JavaScript and WebGL, 8th Wall Web is a complete implementation of 8th Wall’s Simultaneous Localization and Mapping (SLAM) engine, hyper-optimized for real-time AR on mobile browsers. Features include 6-Degrees of Freedom Tracking, Surface Estimation, Lighting, World Points and Hit Tests.
+Built using 8th Wall.
 
 - - -
 
-# Resources
+# Get Started
 
-* [Getting Started Guide](https://github.com/8thwall/web/tree/master/gettingstarted)
-* [Documentation](https://docs.8thwall.com/web)
-* [8th Wall Website](https://www.8thwall.com)
-
-* [Serving projects locally](https://github.com/8thwall/web/tree/master/serve) - A "serve" script that will run a local https webserver on your development computer. Useful for development and testing of 8th Wall Web projects.
-
-# Web AR Examples
-
-* [A-Frame Examples](https://github.com/8thwall/web/tree/master/examples/aframe)(Recommended to start)
-* [Babylon.js Examples](https://github.com/8thwall/web/tree/master/examples/babylonjs)
-* [three.js Examples](https://github.com/8thwall/web/tree/master/examples/threejs)
-* [Camera Pipeline Examples](https://github.com/8thwall/web/tree/master/examples/camerapipeline)
-* [Amazon Sumerian Setup](https://github.com/8thwall/web/tree/master/gettingstarted/xrsumerian)
+1) Clone this repo.
+2) [Make an account at 8th Wall](https://www.8thwall.com/)
+3) Enable your phone for development by clicking Device Authorization
+4) Get your App Key place it into the pokemon/index.html
+5) cd into serve and do npm install
+6) cd out into your root directory
+7a) For OSX: /serve/bin/serve -d /pokemon
+7b) For Windows: # serve\bin\serve.bat -d \pokemon
+8) Scan the QR code and then click to play Mimikyu
